@@ -232,7 +232,7 @@ nav {
   overflow: clip;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .nav-items {
     display: none;
   }
