@@ -241,7 +241,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1080px) {
   .nav-items {
     display: none;
   }
@@ -276,7 +276,7 @@ nav {
     align-items: center;
     padding-top: 0px;
     /* position:left; */
-    padding-right: 300px;
+    /* padding-right: 300px; */
   }
   .nav {
     align-items: flex-start;
@@ -401,10 +401,6 @@ nav {
   }
   .first{
     overflow-wrap:normal;
-  }
-  .social-icons{
-    padding: 0px;
-    padding-right: 230px;
   }
 }
 @media screen and (max-width: 450px) {
