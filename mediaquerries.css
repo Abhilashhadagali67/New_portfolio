@@ -1,0 +1,226 @@
+@media screen and(max-width: 1250px) {
+    .outer-circle {
+      margin: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .nav-items {
+      display: none;
+    }
+    nav logo {
+      left: 80px;
+      /* margin: 25px; */
+    }
+    .grid-content {
+      /* grid-template-columns: 100px;
+      justify-content: center;
+      align-items: center; */
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .outer-circle {
+      /* padding-top: 50px; */
+      flex: 1;
+      /* margin: 50px; */
+    }
+    .first span {
+      /* padding-top: 420px; */
+    }
+    .first p {
+      /* padding-top: 450px; */
+      padding: 0px;
+    }
+    .social-icons {
+      /* padding-top: 570px; */
+      justify-content: center;
+      align-items: center;
+      padding-top: 0px;
+      /* position:left; */
+      padding-right: 300px;
+    }
+    .nav {
+      align-items: flex-start;
+    }
+  
+    .tech-grid {
+      display: grid;
+      grid-template-rows: 1fr;
+      align-items: center;
+      justify-content: center;
+      padding-right: 130px;
+    }
+    .tech-grid {
+      display: flex;
+      grid-template-rows: 1fr;
+      /* align-items: flex-start; */
+      align-items: normal;
+      justify-content: center;
+      /* padding-top: 500px; */
+      margin: 0px;
+    }
+    /* About me */
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .about-photo {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .about-text {
+      flex: 2;
+      text-align: left;
+      margin: 50px;
+    }
+    .about-content h3 {
+      margin: 0;
+      color: #147efb;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+  
+  @media screen and (max-width: 690px) {
+    .nav-items {
+      display: none;
+    }
+    nav logo {
+      left: 80px;
+      /* margin: 25px; */
+    }
+    .grid-content {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+    .header {
+      width: 450vw;
+    }
+  
+    .outer-circle {
+      width: 300px;
+      height: 300px;
+      border-radius: 100%;
+    }
+    .first p {
+      /* padding-top: 540px; */
+    }
+    .nav {
+      align-items: flex-start;
+    }
+    .header {
+      align-items: flex-start;
+      width: 100vw;
+    }
+    .tech-grid {
+      display: flex;
+      grid-template-rows: 1fr;
+      /* align-items: flex-start; */
+      align-items: normal;
+      justify-content: center;
+      /* padding-top: 500px; */
+      margin: 0px;
+    }
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .about-photo {
+      flex: 1;
+      margin: 20px;
+    }
+    .about-text {
+      flex: 2;
+      text-align: left;
+    }
+  }
+  
+  @media screen and(max-width: 368px) {
+    .grid-content {
+      max-width: 280px;
+      justify-content: center;
+      margin: 20px;
+    }
+    .outer-circle {
+      margin: 0px;
+    }
+    .first {
+      overflow-wrap: normal;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .grid-content {
+      max-width: 360px;
+      justify-content: center;
+    }
+    .outer-circle {
+      margin: 0px;
+    }
+    .nav-items {
+      display: none;
+    }
+    nav logo {
+      left: 80px;
+      /* margin: 25px; */
+    }
+    .first grid-content {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .outer-circle {
+      width: 300px;
+      height: 300px;
+      border-radius: 100%;
+    }
+    .first p {
+      /* padding-top: 540px; */
+    }
+    .header {
+      align-items: flex-start;
+      width: 400vw;
+    }
+    .tech-grid {
+      display: flex;
+      grid-template-rows: 1fr;
+      /* align-items: flex-start; */
+      align-items: normal;
+      justify-content: center;
+      /* padding-top: 500px; */
+      margin: 0px;
+    }
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .about-photo {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .about-text {
+      padding-left: 10px;
+      flex: 2;
+      text-align: left;
+      max-width: 300px;
+    }
+    .about-text p {
+      max-width: 100%;
+    }
+    .about-text h4 {
+      max-width: 100%;
+    }
+  }
+  

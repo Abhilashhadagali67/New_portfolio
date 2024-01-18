@@ -6,6 +6,7 @@ body {
   padding: 0;
 }
 /* Nav background */
+
 header {
   width: 100vw;
   height: 85px;
@@ -13,6 +14,9 @@ header {
   box-shadow: 0px 4px 9.1px 0px rgba(0, 0, 0, 0.25);
   align-content: center;
   box-sizing: border-box;
+}
+.header {
+  position: sticky;
 }
 nav {
   display: flex;
@@ -233,240 +237,84 @@ nav {
   overflow: clip;
 }
 
-
-
-@media screen and(max-width: 1250px){
-  .outer-circle{
-      margin: 350px;
-  }
+.projects-group {
+  width: 100vw;
+  height: 1600px;
+  margin: 0 auto;
+  max-width: 107rem;
+  padding: 54px 0;
 }
-
-@media screen and (max-width: 1080px) {
-  .nav-items {
-    display: none;
-  }
-  nav logo {
-    left: 80px;
-    /* margin: 25px; */
-  }
-  .grid-content {
-    /* grid-template-columns: 100px;
-    justify-content: center;
-    align-items: center; */
-
+.projects-group .projects-container {
+  margin: 0 210px;
+    max-width: 107rem;
+    padding: 0 4rem;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
-  }
-  .outer-circle {
-    /* padding-top: 50px; */
-    flex: 1;
-    /* margin: 50px; */
-  }
-  .first span {
-    /* padding-top: 420px; */
-  }
-  .first p {
-    /* padding-top: 450px; */
-    padding: 0px;
-  }
-  .social-icons {
-    /* padding-top: 570px; */
-    justify-content: center;
-    align-items: center;
-    padding-top: 0px;
-    /* position:left; */
-    /* padding-right: 300px; */
-  }
-  .nav {
+    flex-wrap: wrap;
     align-items: flex-start;
-  }
-
-
-
-
-
-
-  .tech-grid {
-    display: grid;
-    grid-template-rows: 1fr;
-    align-items: center;
-    justify-content: center;
-    padding-right:130px
-  }
-  .tech-grid {
-    display: flex;
-    grid-template-rows: 1fr;
-    /* align-items: flex-start; */
-    align-items: normal;
-    justify-content: center;
-    /* padding-top: 500px; */
-    margin: 0px;
-  }
-  /* About me */
-  .about-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .about-photo {
-    flex: 1;
-    margin-right: 20px;
-  }
-  .about-text{
-    flex: 2 ;
-    text-align: left;
-    margin: 50px;
-  }
-  .about-content h3{
-      margin: 0;
-      color: #147efb;
-      font-family: Poppins;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-    }
+    align-content: center;
 }
 
-
-@media screen and (max-width: 690px) {
-  .nav-items {
-    display: none;
-  }
-  nav logo {
-    left: 80px;
-    /* margin: 25px; */
-  }
-  .grid-content {
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-  }
-  .header {
-    width: 450vw;
-  }
-
-  .outer-circle {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-  }
-  .first p {
-    /* padding-top: 540px; */
-  }
-  .nav {
-    align-items: flex-start;
-  }
-  .header {
-    align-items: flex-start;
-    width: 100vw;
-  }
-  .tech-grid {
-    display: flex;
-    grid-template-rows: 1fr;
-    /* align-items: flex-start; */
-    align-items: normal;
-    justify-content: center;
-    /* padding-top: 500px; */
-    margin: 0px;
-  }
-  .about-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .about-photo {
-    flex: 1;
-    margin: 20px;
-  }
-  .about-text{
-    flex: 2 ;
-    text-align: left;
-  }
+.projects-group .projects-container .project-content {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects-group .projects-container .project-content .project-heads p {
+  display: block;
+  color: #147efb;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.projects-group .projects-container .project-content .project-heads h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 148%; /* 38.48px */
+  width: 484px;
+  margin: 0;
 }
 
-
-@media screen and(max-width: 368px){
-  .grid-content{
-    max-width: 280px;
-    justify-content: center;
-    margin: 20px;
-  }
-  .outer-circle{
-    margin: 0px;
-
-  }
-  .first{
-    overflow-wrap:normal;
-  }
-}
-@media screen and (max-width: 450px) {
-  .grid-content{
-    max-width: 360px;
-    justify-content: center;
-
-  }
-  .outer-circle{
-    margin: 0px;
-  }
-  .nav-items {
-    display: none;
-  }
-  nav logo {
-    left: 80px;
-    /* margin: 25px; */
-  }
-  .first grid-content {
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .outer-circle {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-  }
-  .first p {
-    /* padding-top: 540px; */
-  }
-  .header {
-    align-items: flex-start;
-    width: 400vw;
-  }
-  .tech-grid {
-    display: flex;
-    grid-template-rows: 1fr;
-    /* align-items: flex-start; */
-    align-items: normal;
-    justify-content: center;
-    /* padding-top: 500px; */
-    margin: 0px;
-  }
-  .about-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .about-photo {
-    flex: 1;
-    margin-right: 20px;
-  }
-  .about-text{
-    padding-left: 10px;
-    flex: 2 ;
-    text-align: left;
-    max-width: 300px;
-  }
-  .about-text p{
-    max-width: 100%;
-  }
-  .about-text h4{
-    max-width: 100%;
-  }
+.projects-lists {
+  display: grid;
+  grid-template-columns: 70vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
+.project-1 {
+  width: 70vw;
+  height: 384px;
+  border-radius: 20px;
+  background: #147efb;
+  box-shadow: 10px 8px 8.3px -3px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+}
+.project-2 {
+  width: 70vw;
+  height: 384px;
+  border-radius: 20px;
+  background: #147efb;
+  box-shadow: 10px 8px 8.3px -3px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+}
+.project-3 {
+  width: 70vw;
+  height: 384px;
+  border-radius: 20px;
+  background: #147efb;
+  box-shadow: 10px 8px 8.3px -3px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+}
