@@ -163,7 +163,7 @@ nav ul li a {
 .about-me {
   fill: #fff;
   width: 100vw;
-  height: 700px;
+  /* height: 700px; */
   padding: 150px 0;
 }
 .about-container {
@@ -172,20 +172,61 @@ nav ul li a {
   max-width: 840px;
   padding: 0 40px;
 }
-.image-container-about {
-  width: 320.447px;
-  height: 330px;
+.about-img {
+  width: 350px;
+  height: 380px;
   border-radius: 32px;
   background: #d9d9d9;
   overflow: hidden;
   position: relative;
 }
+.image-container-about{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 .about-img img {
-  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
+  justify-items: center;
+  gap: 20px ;
+}
+.about-text h3{
+  margin: 0px;
+  color: #147EFB;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.about-text h4{
+  color: #000;
+  margin: 0px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 148%; /* 38.48px */
+  max-width: 484px;
+  width: 100%;
+}
+.about-text p{
+  margin: 0px;
+  max-width: 480px;
+  width: 100%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }

@@ -24,15 +24,34 @@
     flex-direction: column;
     position: static;
   }
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 50px ;
+    text-align: center;
+  }
+  .about-container{
+    max-width: 500px;
+  }
 }
+
+
+
+
+
 @media screen and (max-width: 730px) {
   nav ul {
     display: none;
+  }
+  .about-container{
+    max-width: 400px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .home-container {
     padding: 0;
+  }
+  .about-container{
+    max-width: 200px;
   }
 }
