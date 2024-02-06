@@ -33,6 +33,6 @@ function project_card(img_src, proj_title, proj_desc, proj_lang1,proj_lang2, pro
     document.querySelector(".projects-container").innerHTML + html;
 }
 
-project_card("assets/nick-fewings-MlZnEM4LUwY-unsplash.jpg","car pooling( 2023 )","As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS.","Java","Python");
+project_card("assets/nick-fewings-MlZnEM4LUwY-unsplash.jpg","car pooling( 2023 )","As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS.","Java","Python","Django","React");
 
 
