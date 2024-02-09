@@ -23,8 +23,12 @@
       <ul>
         <li class="nav-items" id="nav-hover"><a href="#Home">Home</a></li>
         <li class="nav-items" id="nav-hover"><a href="#about-me">About</a></li>
-        <li class="nav-items" id="nav-hover"><a href="#projects">Projects</a></li>
-        <li class="nav-items" id="nav-hover"><a href="#Home">Contact me</a></li>
+        <li class="nav-items" id="nav-hover">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="nav-items" id="nav-hover">
+          <a href="#contact">Contact me</a>
+        </li>
       </ul>
     </nav>
     <!-- Nav-Bar -->
@@ -38,7 +42,7 @@
                 Hi, I'm Abhilash Hadagali . A passionate Front-end React
                 Developer based in Davangere, Karnataka.
               </p>
-              <span>
+              <span class="linkandgit">
                 <a
                   href="https://www.linkedin.com/in/abhilash-hadagali-970aa5227/"
                   ><img src="assets/linkedin-black.png" alt=""
@@ -58,7 +62,7 @@
               </div>
             </div>
           </div>
-          <div class="home-skills" >
+          <div class="home-skills">
             <p>Tech Stack</p>
             <div class="skills-logo">
               <ul>
@@ -68,18 +72,18 @@
                     alt=""
                   />
                 </li>
-                <!-- <li>
+                <li>
                   <img
                     src="https://skillicons.dev/icons?i=tailwind,django"
                     alt=""
                   />
-                </li> -->
-                <!-- <li>
+                </li>
+                <li>
                   <img
                     src="https://skillicons.dev/icons?i=mongodb,nodejs"
                     alt=""
                   />
-                </li> -->
+                </li>
                 <li>
                   <img
                     src="https://skillicons.dev/icons?i=figma,photoshop"
@@ -92,7 +96,6 @@
         </div>
       </div>
     </section>
-
     <!-- About Me -->
     <section class="about-me" id="about-me">
       <div class="about-container">
@@ -128,12 +131,11 @@
         <div class="projects-heads">
           <h3>Projects</h3>
           <h4>
-            The full fledged and Dynaic<br />
+            The full fledged and Dynaic
             webapps Developed.
           </h4>
         </div>
         <div class="projects-content">
-          
           <div class="project-box">
             <div class="box-project-image">
               <div class="project-container-image">
@@ -155,7 +157,7 @@
                 <li>Django</li>
               </ul>
               <div class="browser-button">
-                <img src="assets/globe.png" class="globe">
+                <img src="assets/globe.png" class="globe" />
                 <div class="text">Github Repository</div>
               </div>
             </div>
@@ -164,7 +166,58 @@
         <!-- project content ends -->
       </div>
     </section>
-    <script src="index.js"></script>
+
+    <!-- Contact me  -->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-content">
+          <div class="contact-heads">
+            <h3>Contact me</h3>
+            <h2>Hit me up anytime at</h2>
+          </div>
+          <div class="contact-links">
+            <div class="contact-location">
+              <a href="https://maps.app.goo.gl/f7ZWHqZ7DPJBHF3VA">
+                <div class="loc-circle">
+                  <img src="assets/location.png" alt="" />
+                </div>
+              </a>
+              <div class="loc-text">
+                <h3>Location</h3>
+                <h2>Davangere, Karnataka</h2>
+              </div>
+            </div>
+
+            <div class="contact-mailid">
+              <a
+                href="mailto:abhilashhadagali67@gmail.com"
+              >
+                <div class="loc-circle">
+                  <img src="assets/mail.png" alt="" />
+                </div>
+              </a>
+              <div class="loc-text">
+                <h3>Mail</h3>
+                <h6>abhilashhadagali67@gmail.com</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-copy">
+            <h3>Copyright © 2023. All rights are reserved</h3>
+          </div>
+          <div class="footer-img">
+            <img class= "inverted"src="assets/logo black.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
-
