@@ -524,7 +524,7 @@ a.anchor {
 .footer{
   background-color: #3B3B3B;
   width: 100vw;
-  height: 150px;
+  height: 120px;
   transition: opacity 0.5s ease-in-out;
   margin: 0px;
   padding: 0;
@@ -534,7 +534,7 @@ a.anchor {
   margin: 0 auto;
   max-width: 840px;
   padding: 0 40px;
-  height: 150px;
+  height: 120px;
   justify-content: center;
   align-items: center;
 }
@@ -550,7 +550,7 @@ a.anchor {
   color: #FFFFFF;
   margin: 0px;
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 148%; /* 38.48px */
   max-width: 484px;
