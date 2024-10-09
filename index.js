@@ -36,7 +36,7 @@ function project_card(img_src, proj_title, proj_desc, proj_lang1,proj_lang2, pro
 }
 
 // project_card("assets/nick-fewings-MlZnEM4LUwY-unsplash.jpg","car pooling( 2023 )","The car pooling system is a tool which can be used in our day-to-day life, especially in large metropolitian cities.","React","Tailwind","MongoDB","Java");
-project_card("assets/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg","Doctor Appointment( 2024 )","create an Appointment Booking with MongoDB and real-time chat functionality with Socket.io. Mern Stack project using Prisma, JWT, Cookies, Context API, React Router Dom, and more","React","MongoDB","Express"," ", "https://github.com/Abhilashhadagali67/real-estate-mern");
+project_card("assets/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg","Doctor Appointment( 2024 )","create an Appointment Booking with MongoDB and real-time chat functionality with Socket.io","React","MongoDB","Express"," ", "https://github.com/Abhilashhadagali67/real-estate-mern");
 // project_card("assets/nick-fewings-MlZnEM4LUwY-unsplash.jpg","car pooling( 2023 )","As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS.","Java","Python","Django","React");
 // project_card("assets/nick-fewings-MlZnEM4LUwY-unsplash.jpg","car pooling( 2023 )","As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS.","Java","Python","Django","React");
 
