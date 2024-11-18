@@ -359,6 +359,7 @@ a.anchor {
   display: flex;
   gap: 12px;
   padding: 0;
+  justify-content: center;
 }
 .box-texts ul li {
   margin: 0px;
